@@ -1,8 +1,8 @@
 .card {
   background: $white;
   border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,.22), 0 2px 4px 0 rgba(0,0,0,.12);
   padding: 1rem 1.5rem;
+  @include box-shadow(0, 4px, 8px, 0, rgba(0,0,0,.22));
 
   &__body {
     display: flex;
