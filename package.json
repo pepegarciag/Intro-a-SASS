@@ -1,0 +1,24 @@
+{
+  "name": "intro-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass --include-path assets/scss assets/scss/main.scss assets/css/main.css",
+    "watch": "node-sass --include-path assets/scss -w assets/scss/ -o assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepegarciag/Intro-a-SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pepegarciag/Intro-a-SASS/issues"
+  },
+  "homepage": "https://github.com/pepegarciag/Intro-a-SASS#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
